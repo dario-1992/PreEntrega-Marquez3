@@ -145,6 +145,34 @@
   width: 50rem;
 }
 
+.videos {
+  background-color: #191919;
+  font-family: "menutxtrg";
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.video-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 700px;
+}
+.video-1 .v1 {
+  height: 80%;
+}
+.video-1 .txt {
+  color: #0a0a0a;
+  background-color: #f8f8ff;
+  width: 20rem;
+  padding: 15px;
+  border-radius: 40px;
+  border-color: #fad201;
+  border-width: 3px;
+  border-style: solid;
+}
+
 .pie {
   background-color: #0a0a0a;
   font-family: "mate-zone";

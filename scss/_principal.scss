@@ -88,3 +88,36 @@
         justify-content: end;
         width: 50rem;
     }
+
+// estilos como lo hacemos
+
+.videos{
+    background-color: $color-secundario;
+    font-family: $menu;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
+
+.video-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    align-items: center;
+    height: 700px;
+
+    .v1 {height: 80%;};
+    
+    .txt {
+        color: $color-terciario;
+        background-color: $color-txt;
+        width: 20rem;
+        padding: 15px;
+        border-radius: 40px ;
+        border-color: $color-principal;
+        border-width: 3px;
+        border-style: solid;
+    
+    }
+}
+
