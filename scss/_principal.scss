@@ -1,7 +1,7 @@
 /* index */ 
 //main
 .carousel {
-    background-color: #191919;
+    background-color: $color-secundario;
     .principal {
         width: 50%;
         display: flex;
@@ -18,26 +18,26 @@
             left: 15%;
             padding-top: 2rem;
             padding-bottom: 2rem;
-            color: #fad201;
+            color: $color-principal;
             text-align: center;
             font-family: "menutxtrg";
-            background-color: #191919;
+            background-color:$color-secundario;
           }
     }
 }
 //section
 .card-title {
-    font-family: "mate-zone";
+    font-family: $general;
     font-size: xx-large;
     
 }
   .card {
       margin-top: 2rem;
-      font-family: "menutxtbd";
-      background-color: #fad201;
+      font-family: $submenu;
+      background-color: $color-principal;
   }
   .text-body-secondary {
-      font-family: "menutxtrg";
+      font-family: $menu;
       }
 
 /* mateamp */ 

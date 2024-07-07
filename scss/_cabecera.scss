@@ -8,8 +8,8 @@
      }
 
 .bg-nav{
-        background-color: #0a0a0a;
-        font-family: "menutxtrg";
+        background-color: $color-terciario;
+        font-family: $menu;
         .container-matezone{    display: flex;
             flex-wrap: inherit;
             align-items: center;
@@ -17,11 +17,11 @@
             .logo {display: flex;
                 margin-right: 1rem;
                 margin-left: 1rem;
-                font-family: "mate-zone";
+                font-family: $general;
                 font-size: 2rem;
                 font-weight: 100;
                 text-decoration: none;
-                color: #fad201;
+                color: $color-principal;
                 white-space: nowrap;
             }
             .burger {
@@ -29,8 +29,8 @@
                 font-size: 1.25rem;
                 flex-direction: column;
                 line-height: 1;
-                color: #fad201;
-                background-color: #fad201;
+                color: $color-principal;
+                background-color: $color-principal;
                 border: 3px;
                 border-radius: 0.25rem
             }
@@ -47,7 +47,7 @@
         flex-direction: row;
         margin-bottom: 0;
         list-style: none;
-        color: #f8f8ff;
+        color: $color-txt;
     }
 
 
