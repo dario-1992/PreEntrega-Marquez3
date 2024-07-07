@@ -1,0 +1,90 @@
+/* index */ 
+//main
+.carousel {
+    background-color: #191919;
+    .principal {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        &:after {
+            display: block;
+            clear: both;
+            content: "";
+        }
+    .color {
+            position: absolute;
+            right: 15%;
+            bottom: 1.25rem;
+            left: 15%;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            color: #fad201;
+            text-align: center;
+            font-family: "menutxtrg";
+            background-color: #191919;
+          }
+    }
+}
+//section
+.card-title {
+    font-family: "mate-zone";
+    font-size: xx-large;
+    
+}
+  .card {
+      margin-top: 2rem;
+      font-family: "menutxtbd";
+      background-color: #fad201;
+  }
+  .text-body-secondary {
+      font-family: "menutxtrg";
+      }
+
+/* mateamp */ 
+.ampmain {
+    margin-left: 30px;
+   display: grid;
+   grid-template-columns: repeat(4,1fr) ;
+   grid-template-rows: repeat(6,1fr) ;
+   grid-template-areas:  
+  "uno uno tres tres"
+  "uno uno tres tres"
+  "dos dos cuatro cuatro"
+  "dos dos cuatro cuatro"
+  "cinco cinco seis seis"
+  "cinco cinco seis seis"
+  
+   ;
+
+}
+
+.uno {
+    grid-area: uno;
+}
+.dos {
+    grid-area: dos;
+}
+.tres {
+    grid-area: tres;
+}
+.cuatro {
+    grid-area: cuatro;
+}
+.cinco {
+    grid-area: cinco;
+}
+.seis {
+    grid-area: seis;
+}
+
+ /* estilos matepedal*/
+
+.basepdal {
+        display: flex;
+        justify-content: center;
+    }
+.imgpedal {
+        display: flex;
+        justify-content: end;
+        width: 50rem;
+    }
